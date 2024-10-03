@@ -1,0 +1,9 @@
+{
+  "name": "infocasas",
+  "displayName": "infocasas",
+  "expo": {
+    "ios": {
+      "bundleIdentifier": "com.infocasas.brayanlp"
+    }
+  }
+}
