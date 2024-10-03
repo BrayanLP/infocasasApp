@@ -92,12 +92,12 @@ const HomeScreen: React.FC = () => {
             deleteTask={deleteTask}></ItemTask>
         )}
         ListEmptyComponent={
-          <Text style={styles.empty}>No hay tareas disponibles</Text>
+          <Text style={styles.empty}>No tasks available</Text>
         }
       />
       <Button
         color={'#fc7b27'}
-        title="+ Agregar Tarea"
+        title="+ Add Task"
         onPress={() => setModalVisible(true)}
       />
       <TaskFormModal
@@ -142,10 +142,11 @@ const styles = StyleSheet.create({
     color: '#aaa',
   },
   input: {
-    width: '65%',
+    width: '55%',
+    color: '#000',
   },
   containerDropdown: {
-    width: '30%',
+    width: '40%',
   },
 });
 

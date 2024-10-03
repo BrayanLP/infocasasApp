@@ -45,6 +45,7 @@ const styles = StyleSheet.create({
     paddingHorizontal: 15,
     backgroundColor: '#fff',
     width: '100%',
+    color: '#000',
     fontSize: 17,
   },
 });
